@@ -1320,7 +1320,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 30px;
+  font-size: 32px;
   color: #fff;
   margin-bottom: 20px;
 }
@@ -3661,6 +3661,15 @@ tbody.collapse.in {
   background-size: cover;
   text-align: center;
 }
+.jumbotron #none1{
+	height: 80px;
+}
+.jumbotron #none2{
+	height: 50px;
+}
+.jumbotron .download-bt{
+	margin-top: 20px;
+}
 .jumbotron h1,
 .jumbotron .h1 {
   color: white;
@@ -5952,42 +5961,65 @@ tbody.collapse.in {
   text-decoration: none;
 }
 
-.services-section {
+.tips-section {
   background: white;
   text-align: center;
   padding: 100px 0;
 }
-.services-section .row.row-padding {
+.tips-section .icon-wrap{
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	margin: 0 auto 50px auto;
+	line-height: 200px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.tips-section .way{
+	background: #58AE7A;
+}
+.tips-section .heart{
+	background: #DC554F;
+}
+.tips-section .idea{
+	background: #88A9D5;
+}
+.tips-section .icons{
+  font-size: 80px;
+  color:#fff;
+}
+.tips-section .row.row-padding {
   padding-top: 40px;
 }
 
-.col-services {
+.col-tips {
   padding-bottom: 20px;
 }
 @media screen and (max-width: 800px) {
-  .col-services {
+  .col-tips {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
     padding-bottom: 40px;
   }
-  .col-services:last-child {
+  .col-tips:last-child {
     padding-bottom: 0;
   }
 }
 @media screen and (max-width: 640px) {
-  .col-services {
+  .col-tips {
     width: 90%;
   }
 }
 @media screen and (max-width: 320px) {
-  .col-services {
+  .col-tips {
     width: 100%;
   }
 }
 
-.img-services {
+.img-tips {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -5996,7 +6028,7 @@ tbody.collapse.in {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.img-services.img-margin {
+.img-tips.img-margin {
   margin-top: 14px;
   margin-bottom: 31px;
 }
@@ -6106,7 +6138,7 @@ tbody.collapse.in {
 .download-section {
   background: #2e2f41 url(../images/bg-2.png) 0 0 no-repeat;
   text-align: center;
-  padding: 50px 0;
+  padding: 80px 0;
   background-size: cover;
   color: white;
 }
